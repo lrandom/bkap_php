@@ -15,7 +15,7 @@ if(isset($_POST['email'])){
     <title>Document</title>
 </head>
 <body>
-    <form method="POST">
+    <form method="POST" action="do-login.php">
         <input type="email" name="email" placeholder="Vui lòng nhập email"/>
         <input type="password" name="password" placeholder="Vui lòng nhập mật khẩu"/>
         <button>Đăng nhập</button>
