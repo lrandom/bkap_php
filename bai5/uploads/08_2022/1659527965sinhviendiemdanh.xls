@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+        <style type="text/css">
+
+.TableView				{ border: 1px solid #EDEDED; }
+table					{ border:0; margin:0px; padding:0px; }
+* 						{ margin:0px; padding:0px; } 
+.TableView .trHeader	{ line-height:24px; font-weight:bold; text-align:center; background:#2276f2; color:#FFFFFF; } 
+.TableView tr	        { border-bottom: 1px solid #EDEDED; border-left: 1px solid #99BBE8; border-right: 1px solid #99BBE8; }
+.TableView .trHeader td	{ padding:2px 0; line-height:15px; height:24px; } 
+.TableView tr td		{padding:0 4px;}
+td, div 				{ font-size: 100%; }
+.TableView .trOdd		{ line-height:24px; background:#FFFFFF; } 
+.TableView .DateTime	{ width:165px; text-align:center; }
+.TableView .Function 	{ text-align:center; width:120px; height:20px; }
+.TableView .trEven		{ line-height:24px; background:#f5f5f5; } 
+.TableView .Paging		{ line-height:20px; }
+a:link, a:visited		{ text-decoration:none }
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="Export_diemdanhlop.aspx?date=8%2f3%2f2022&amp;lophoc=433&amp;monhoc=534&amp;tiethoc=20023&amp;kyhoc=107&amp;khoahoc=152" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+     <table class="TableView" cellspacing="0" rules="all" border="1" id="grdStudentCares" style="width:100%;border-collapse:collapse;">
+	<tr class="trHeader">
+		<td>Mã sinh viên</td><td>Họ tên</td><td>Ngày giờ điểm danh</td><td>
+                            Đi muộn
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9304
+           </td><td style="width:180px;"> 
+   Nguyễn Quốc Văn
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl02_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9305
+           </td><td style="width:180px;"> 
+   Nguyễn Tuấn Anh
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl03_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9306
+           </td><td style="width:180px;"> 
+   Nguyễn Quốc Vũ
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl04_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9198
+           </td><td style="width:180px;"> 
+   Trần Thị Tâm
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl05_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9307
+           </td><td style="width:180px;"> 
+   Nguyễn Quang  Linh
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl06_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9308
+           </td><td style="width:180px;"> 
+   Cấn Văn Điệt
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl07_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9309
+           </td><td style="width:180px;"> 
+   Cấn Thị Hạnh
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl08_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9310
+           </td><td style="width:180px;"> 
+   Nguyễn Trường Khang
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl09_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9311
+           </td><td style="width:180px;"> 
+   Hồ Xuân Hùng
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl10_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9217
+           </td><td style="width:180px;"> 
+   Nguyễn Đức Anh
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl11_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9312
+           </td><td style="width:180px;"> 
+   Nguyễn Trịnh Nam Anh
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl12_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9313
+           </td><td style="width:180px;"> 
+   Trần Hoàng  Hiệp
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl13_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9314
+           </td><td style="width:180px;"> 
+   Nguyễn Trọng Dũng
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl14_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9316
+           </td><td style="width:180px;"> 
+   Phan Bá Đức
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl15_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trOdd">
+		<td class="DateTime" style="width:100px;"> 
+            B9315
+           </td><td style="width:180px;"> 
+   Đinh Văn Căn
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl16_lbldimuon"></span>
+                         
+                        </td>
+	</tr><tr class="trEven">
+		<td class="DateTime" style="width:100px;"> 
+            B9317
+           </td><td style="width:180px;"> 
+   Nguyễn Duy Nguyên
+ </td><td style="width:180px;"> 
+  
+ </td><td>
+                            
+                           
+                         
+                            <span id="grdStudentCares_ctl17_lbldimuon"></span>
+                         
+                        </td>
+	</tr>
+</table>
+    </form>
+      <table class="TableUpdate" border="1">
+             <tr>
+                <th>
+                    Giảng viên lớp:</th>
+                <td>
+                    
+                </td>
+             </tr>
+          
+            </table> 
+</body>
+</html>
