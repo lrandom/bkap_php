@@ -59,7 +59,8 @@ if(isset($_GET['action'])) {
             <td><?php echo $row['name'];?></td>
             <td><?php echo $row['price']; ?></td>
             <td>
-                <a onclick="return confirm('Bạn chắc chắn muốn xóa ?')" href="?action=delete&id=<?php echo $row['id']; ?>">Xóa</a>
+                <a onclick="return confirm('Bạn chắc chắn muốn xóa ?')"
+                   href="?action=delete&id=<?php echo $row['id']; ?>">Xóa</a>
                 <a href="?action=edit&id=<?php echo $row['id']; ?>">Sửa</a>
             </td>
         </tr>
@@ -67,7 +68,6 @@ if(isset($_GET['action'])) {
             }
           }        
         ?>
-    
       </tbody>
     </table>
 
