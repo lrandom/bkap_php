@@ -6,27 +6,8 @@
   if(!$connect){
     die("Connect Failed").mysqli_connect_error();//in ra thông báo lỗi và dừng chương trình
   }
-  //echo "Connect Success";
-  //đóng kết nôi
-  //mysqli_close($connect);
 ?>
-<?php 
-if(isset($_GET['action'])) {
-    $action = $_GET['action'];
-    $id=$_GET['id'];
-    if($action=='delete'){
-        //thao tác xóa
-        //tiến hành xóa
-        $sql = "DELETE FROM products WHERE id=$id";
-        mysqli_query($connect,$sql);    
-    }else if($action=='edit'){
-        //thao tác sửa
-        //tiến hành sửa
-        //sử dụng lệnh header để set cho http response một header location
-        header('Location:edit-product.php?id='.$id);
-    }
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,8 +41,8 @@ if(isset($_GET['action'])) {
             <td><?php echo $row['price']; ?></td>
             <td>
                 <a onclick="return confirm('Bạn chắc chắn muốn xóa ?')"
-                   href="?action=delete&id=<?php echo $row['id']; ?>">Xóa</a>
-                <a href="?action=edit&id=<?php echo $row['id']; ?>">Sửa</a>
+                   href="do-delete.php?id=<?php echo $row['id']; ?>">Xóa</a>
+                <a href="edit-product.php?id=<?php echo $row['id']; ?>">Sửa</a>
             </td>
         </tr>
         <?php 
