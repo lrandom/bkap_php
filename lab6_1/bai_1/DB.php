@@ -10,5 +10,6 @@
     }
 
     public abstract function getList();  
+
  }
 ?>
