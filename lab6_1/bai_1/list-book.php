@@ -28,6 +28,7 @@
                 <td><?php echo $item['book_name']; ?></td>
                 <td><?php echo $item['price']; ?></td>
                 <td><?php echo $item['author_name']; ?></td>
+                <td><a href="delete-book.php?id=<?php echo $item['id']; ?>" onclick="return confirm('Are you sure you want to delete this row?')">Xóa</a></td>
             </tr>
             <?php endforeach; ?>
         </tbody>

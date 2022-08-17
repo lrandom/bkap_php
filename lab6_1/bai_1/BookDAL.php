@@ -7,5 +7,27 @@ class BookDAL extends DB{
         $result = mysqli_query($this->connect,$sql);
         return $result;
     }
+
+    public function add($name,$price,$authorId){
+        $sql = "INSERT INTO book(name,price,author_id) VALUES('$name',$price,$authorId)";
+        mysqli_query($this->connect,$sql);
+    }
+
+    public function deleteItem($id){
+        $sql = "DELETE FROM book WHERE id=$id";
+        mysqli_query($this->connect,$sql);
+    }
+
+    public function getListByAuthorId($authorId){
+        $sql = "SELECT * FROM book WHERE author_id=$authorId";
+        return mysqli_query($this->connect,$sql);
+    }
+
+    public function getTotalByAuthorId($authorId){
+        $sql = "SELECT COUNT(id) as total FROM book WHERE author_id=$authorId";
+        $result = mysqli_query($this->connect,$sql);
+        $row = mysqli_fetch_assoc($result);
+        return $row['total'];
+    }
 }
 ?>

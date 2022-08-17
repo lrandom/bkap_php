@@ -24,6 +24,7 @@
             <tr>
                 <td><?php echo $item['id']; ?></td>
                 <td><?php echo $item['name']; ?></td>
+                <td><a href="delete-author.php?id=<?php echo $item['id']; ?>" onclick="return confirm('Are you sure you want to delete this row?')">Xóa</a></td>
             </tr>
             <?php endforeach; ?>
         </tbody>

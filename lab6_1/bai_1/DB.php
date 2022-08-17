@@ -1,5 +1,6 @@
 <?php 
  abstract class DB {
+
     protected $connect=null;
     public function __construct()
     {
@@ -12,4 +13,5 @@
     public abstract function getList();  
 
  }
+
 ?>
