@@ -29,5 +29,18 @@ class BookDAL extends DB{
         $row = mysqli_fetch_assoc($result);
         return $row['total'];
     }
+
+    public function getBookById($id){
+        $sql = "SELECT *,book.id as book_id,book.name as book_name,author.name as author_name
+        FROM book INNER JOIN author ON author.id = book.author_id WHERE book.id=$id";
+        $result = mysqli_query($this->connect,$sql);
+        $row = mysqli_fetch_assoc($result);
+        return $row;
+    }
+
+    public function update($id,$name,$price,$authorId){
+        $sql = "UPDATE book SET name='$name',price=$price,author_id=$authorId WHERE id=$id";
+        mysqli_query($this->connect,$sql);
+    }
 }
 ?>

@@ -24,11 +24,14 @@
         <tbody>
             <?php foreach($list as $item): ?>
             <tr>
-                <td><?php echo $item['id']; ?></td>
+                <td><?php echo $item['book_id']; ?></td>
                 <td><?php echo $item['book_name']; ?></td>
                 <td><?php echo $item['price']; ?></td>
                 <td><?php echo $item['author_name']; ?></td>
-                <td><a href="delete-book.php?id=<?php echo $item['id']; ?>" onclick="return confirm('Are you sure you want to delete this row?')">Xóa</a></td>
+                <td>
+                    <a href="delete-book.php?id=<?php echo $item['book_id']; ?>" onclick="return confirm('Are you sure you want to delete this row?')">Xóa</a>
+                    <a href="update-book.php?id=<?php echo $item['book_id']; ?>">Sửa</a>
+                </td>
             </tr>
             <?php endforeach; ?>
         </tbody>
